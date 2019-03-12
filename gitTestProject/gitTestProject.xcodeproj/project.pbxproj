@@ -16,6 +16,7 @@
 		B37C9D5922378B98000EF46B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B37C9D5822378B98000EF46B /* main.m */; };
 		B37C9D6322378B98000EF46B /* gitTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B37C9D6222378B98000EF46B /* gitTestProjectTests.m */; };
 		B37C9D6E22378B98000EF46B /* gitTestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B37C9D6D22378B98000EF46B /* gitTestProjectUITests.m */; };
+		B37C9D7D2237A09B000EF46B /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37C9D7C2237A09B000EF46B /* twoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		B37C9D6922378B98000EF46B /* gitTestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitTestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37C9D6D22378B98000EF46B /* gitTestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitTestProjectUITests.m; sourceTree = "<group>"; };
 		B37C9D6F22378B98000EF46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37C9D7B2237A09B000EF46B /* twoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
+		B37C9D7C2237A09B000EF46B /* twoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +116,7 @@
 				B37C9D5422378B98000EF46B /* LaunchScreen.storyboard */,
 				B37C9D5722378B98000EF46B /* Info.plist */,
 				B37C9D5822378B98000EF46B /* main.m */,
-				7067AC6C22378FFB006A1FFE /* oneViewController.h */,
-				7067AC6D22378FFB006A1FFE /* oneViewController.m */,
+				B37C9D7E2237A0B3000EF46B /* testMovePath */,
 			);
 			path = gitTestProject;
 			sourceTree = "<group>";
@@ -135,6 +137,17 @@
 				B37C9D6F22378B98000EF46B /* Info.plist */,
 			);
 			path = gitTestProjectUITests;
+			sourceTree = "<group>";
+		};
+		B37C9D7E2237A0B3000EF46B /* testMovePath */ = {
+			isa = PBXGroup;
+			children = (
+				7067AC6C22378FFB006A1FFE /* oneViewController.h */,
+				7067AC6D22378FFB006A1FFE /* oneViewController.m */,
+				B37C9D7B2237A09B000EF46B /* twoViewController.h */,
+				B37C9D7C2237A09B000EF46B /* twoViewController.m */,
+			);
+			path = testMovePath;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -274,6 +287,7 @@
 				B37C9D5922378B98000EF46B /* main.m in Sources */,
 				B37C9D4B22378B98000EF46B /* AppDelegate.m in Sources */,
 				7067AC6E22378FFB006A1FFE /* oneViewController.m in Sources */,
+				B37C9D7D2237A09B000EF46B /* twoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
