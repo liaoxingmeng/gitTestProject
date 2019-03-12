@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7067AC6E22378FFB006A1FFE /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067AC6D22378FFB006A1FFE /* oneViewController.m */; };
 		B37C9D4B22378B98000EF46B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B37C9D4A22378B98000EF46B /* AppDelegate.m */; };
 		B37C9D4E22378B98000EF46B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37C9D4D22378B98000EF46B /* ViewController.m */; };
 		B37C9D5122378B98000EF46B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C9D4F22378B98000EF46B /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7067AC6C22378FFB006A1FFE /* oneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
+		7067AC6D22378FFB006A1FFE /* oneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
 		B37C9D4622378B98000EF46B /* gitTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37C9D4922378B98000EF46B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B37C9D4A22378B98000EF46B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				B37C9D5422378B98000EF46B /* LaunchScreen.storyboard */,
 				B37C9D5722378B98000EF46B /* Info.plist */,
 				B37C9D5822378B98000EF46B /* main.m */,
+				7067AC6C22378FFB006A1FFE /* oneViewController.h */,
+				7067AC6D22378FFB006A1FFE /* oneViewController.m */,
 			);
 			path = gitTestProject;
 			sourceTree = "<group>";
@@ -268,6 +273,7 @@
 				B37C9D4E22378B98000EF46B /* ViewController.m in Sources */,
 				B37C9D5922378B98000EF46B /* main.m in Sources */,
 				B37C9D4B22378B98000EF46B /* AppDelegate.m in Sources */,
+				7067AC6E22378FFB006A1FFE /* oneViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
