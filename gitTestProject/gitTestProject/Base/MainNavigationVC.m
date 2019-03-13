@@ -1,25 +1,28 @@
 //
-//  oneViewController.m
+//  MainNavigationVC.m
 //  gitTestProject
 //
 //  Created by xinxinxiangzhao on 2019/3/12.
 //  Copyright © 2019年 杨壮. All rights reserved.
 //
 
-#import "oneViewController.h"
+#import "MainNavigationVC.h"
 
-@interface oneViewController ()
+@interface MainNavigationVC ()
 
 @end
 
-@implementation oneViewController
+@implementation MainNavigationVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
-    NSLog(@"oneVC");
-    NSLog(@"随便打印点什么");
+    
+    UINavigationBar * navBar = [UINavigationBar appearance];
+    navBar.translucent = NO;
+    [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor], NSFontAttributeName:[UIFont systemFontOfSize:18.0]}];
+    [navBar setBarTintColor:[UIColor redColor]];
+    
 }
 
 /*

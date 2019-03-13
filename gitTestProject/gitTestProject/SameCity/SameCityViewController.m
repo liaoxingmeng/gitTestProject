@@ -1,25 +1,22 @@
 //
-//  oneViewController.m
+//  SameCityViewController.m
 //  gitTestProject
 //
 //  Created by xinxinxiangzhao on 2019/3/12.
 //  Copyright © 2019年 杨壮. All rights reserved.
 //
 
-#import "oneViewController.h"
+#import "SameCityViewController.h"
 
-@interface oneViewController ()
+@interface SameCityViewController ()
 
 @end
 
-@implementation oneViewController
+@implementation SameCityViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
-    NSLog(@"oneVC");
-    NSLog(@"随便打印点什么");
 }
 
 /*

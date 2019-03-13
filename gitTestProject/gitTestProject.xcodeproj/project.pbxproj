@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7067AC6E22378FFB006A1FFE /* oneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067AC6D22378FFB006A1FFE /* oneViewController.m */; };
+		7067AC752237C821006A1FFE /* MainNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067AC742237C821006A1FFE /* MainNavigationVC.m */; };
+		7067AC782237C8FD006A1FFE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067AC772237C8FD006A1FFE /* BaseViewController.m */; };
+		7067AC7B2237C99B006A1FFE /* MainTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067AC7A2237C99B006A1FFE /* MainTabbarVC.m */; };
+		7067AC822237DCF4006A1FFE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067AC812237DCF4006A1FFE /* HomeViewController.m */; };
+		7067AC852237DD0D006A1FFE /* SameCityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067AC842237DD0D006A1FFE /* SameCityViewController.m */; };
+		7067AC882237DD1E006A1FFE /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067AC872237DD1E006A1FFE /* MessageViewController.m */; };
+		7067AC8B2237DD2D006A1FFE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067AC8A2237DD2D006A1FFE /* MainViewController.m */; };
+		7067AC8E2237E3E1006A1FFE /* YZTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7067AC8D2237E3E1006A1FFE /* YZTabBar.m */; };
 		B37C9D4B22378B98000EF46B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B37C9D4A22378B98000EF46B /* AppDelegate.m */; };
 		B37C9D4E22378B98000EF46B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B37C9D4D22378B98000EF46B /* ViewController.m */; };
 		B37C9D5122378B98000EF46B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37C9D4F22378B98000EF46B /* Main.storyboard */; };
@@ -39,6 +47,22 @@
 /* Begin PBXFileReference section */
 		7067AC6C22378FFB006A1FFE /* oneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = oneViewController.h; sourceTree = "<group>"; };
 		7067AC6D22378FFB006A1FFE /* oneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneViewController.m; sourceTree = "<group>"; };
+		7067AC732237C821006A1FFE /* MainNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainNavigationVC.h; sourceTree = "<group>"; };
+		7067AC742237C821006A1FFE /* MainNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainNavigationVC.m; sourceTree = "<group>"; };
+		7067AC762237C8FD006A1FFE /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7067AC772237C8FD006A1FFE /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		7067AC792237C99B006A1FFE /* MainTabbarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabbarVC.h; sourceTree = "<group>"; };
+		7067AC7A2237C99B006A1FFE /* MainTabbarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabbarVC.m; sourceTree = "<group>"; };
+		7067AC802237DCF4006A1FFE /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7067AC812237DCF4006A1FFE /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7067AC832237DD0D006A1FFE /* SameCityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SameCityViewController.h; sourceTree = "<group>"; };
+		7067AC842237DD0D006A1FFE /* SameCityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SameCityViewController.m; sourceTree = "<group>"; };
+		7067AC862237DD1E006A1FFE /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		7067AC872237DD1E006A1FFE /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		7067AC892237DD2D006A1FFE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7067AC8A2237DD2D006A1FFE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7067AC8C2237E3E1006A1FFE /* YZTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZTabBar.h; sourceTree = "<group>"; };
+		7067AC8D2237E3E1006A1FFE /* YZTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZTabBar.m; sourceTree = "<group>"; };
 		B37C9D4622378B98000EF46B /* gitTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B37C9D4922378B98000EF46B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B37C9D4A22378B98000EF46B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +108,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7067AC6F2237C75B006A1FFE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7067AC792237C99B006A1FFE /* MainTabbarVC.h */,
+				7067AC7A2237C99B006A1FFE /* MainTabbarVC.m */,
+				7067AC732237C821006A1FFE /* MainNavigationVC.h */,
+				7067AC742237C821006A1FFE /* MainNavigationVC.m */,
+				7067AC762237C8FD006A1FFE /* BaseViewController.h */,
+				7067AC772237C8FD006A1FFE /* BaseViewController.m */,
+				7067AC8C2237E3E1006A1FFE /* YZTabBar.h */,
+				7067AC8D2237E3E1006A1FFE /* YZTabBar.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7067AC7C2237DC83006A1FFE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7067AC802237DCF4006A1FFE /* HomeViewController.h */,
+				7067AC812237DCF4006A1FFE /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7067AC7D2237DC97006A1FFE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7067AC892237DD2D006A1FFE /* MainViewController.h */,
+				7067AC8A2237DD2D006A1FFE /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7067AC7E2237DC9F006A1FFE /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				7067AC862237DD1E006A1FFE /* MessageViewController.h */,
+				7067AC872237DD1E006A1FFE /* MessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		7067AC7F2237DCB1006A1FFE /* SameCity */ = {
+			isa = PBXGroup;
+			children = (
+				7067AC832237DD0D006A1FFE /* SameCityViewController.h */,
+				7067AC842237DD0D006A1FFE /* SameCityViewController.m */,
+			);
+			path = SameCity;
+			sourceTree = "<group>";
+		};
 		B37C9D3D22378B98000EF46B = {
 			isa = PBXGroup;
 			children = (
@@ -109,14 +184,17 @@
 			children = (
 				B37C9D4922378B98000EF46B /* AppDelegate.h */,
 				B37C9D4A22378B98000EF46B /* AppDelegate.m */,
-				B37C9D4C22378B98000EF46B /* ViewController.h */,
-				B37C9D4D22378B98000EF46B /* ViewController.m */,
 				B37C9D4F22378B98000EF46B /* Main.storyboard */,
 				B37C9D5222378B98000EF46B /* Assets.xcassets */,
 				B37C9D5422378B98000EF46B /* LaunchScreen.storyboard */,
 				B37C9D5722378B98000EF46B /* Info.plist */,
 				B37C9D5822378B98000EF46B /* main.m */,
 				B37C9D7E2237A0B3000EF46B /* testMovePath */,
+				7067AC6F2237C75B006A1FFE /* Base */,
+				7067AC7C2237DC83006A1FFE /* Home */,
+				7067AC7F2237DCB1006A1FFE /* SameCity */,
+				7067AC7E2237DC9F006A1FFE /* Message */,
+				7067AC7D2237DC97006A1FFE /* Main */,
 			);
 			path = gitTestProject;
 			sourceTree = "<group>";
@@ -142,6 +220,8 @@
 		B37C9D7E2237A0B3000EF46B /* testMovePath */ = {
 			isa = PBXGroup;
 			children = (
+				B37C9D4C22378B98000EF46B /* ViewController.h */,
+				B37C9D4D22378B98000EF46B /* ViewController.m */,
 				7067AC6C22378FFB006A1FFE /* oneViewController.h */,
 				7067AC6D22378FFB006A1FFE /* oneViewController.m */,
 				B37C9D7B2237A09B000EF46B /* twoViewController.h */,
@@ -284,10 +364,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				B37C9D4E22378B98000EF46B /* ViewController.m in Sources */,
+				7067AC882237DD1E006A1FFE /* MessageViewController.m in Sources */,
 				B37C9D5922378B98000EF46B /* main.m in Sources */,
 				B37C9D4B22378B98000EF46B /* AppDelegate.m in Sources */,
+				7067AC7B2237C99B006A1FFE /* MainTabbarVC.m in Sources */,
 				7067AC6E22378FFB006A1FFE /* oneViewController.m in Sources */,
+				7067AC852237DD0D006A1FFE /* SameCityViewController.m in Sources */,
+				7067AC8B2237DD2D006A1FFE /* MainViewController.m in Sources */,
+				7067AC822237DCF4006A1FFE /* HomeViewController.m in Sources */,
 				B37C9D7D2237A09B000EF46B /* twoViewController.m in Sources */,
+				7067AC782237C8FD006A1FFE /* BaseViewController.m in Sources */,
+				7067AC8E2237E3E1006A1FFE /* YZTabBar.m in Sources */,
+				7067AC752237C821006A1FFE /* MainNavigationVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,25 +1,22 @@
 //
-//  oneViewController.m
+//  MainViewController.m
 //  gitTestProject
 //
 //  Created by xinxinxiangzhao on 2019/3/12.
 //  Copyright © 2019年 杨壮. All rights reserved.
 //
 
-#import "oneViewController.h"
+#import "MainViewController.h"
 
-@interface oneViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation oneViewController
+@implementation MainViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor redColor];
-    NSLog(@"oneVC");
-    NSLog(@"随便打印点什么");
 }
 
 /*
