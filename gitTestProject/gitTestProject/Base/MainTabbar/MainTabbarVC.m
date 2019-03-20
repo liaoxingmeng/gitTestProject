@@ -25,9 +25,13 @@
     // Do any additional setup after loading the view.
     
     [self setValue:[[YZTabBar alloc] init] forKey:@"tabBar"];
-    
     //直接用系统的tabbar简单实现
     [self addAllChildViewController];
+    
+    [[UITabBar appearance] setBackgroundImage:[self imageWithColor:[UIColor grayColor]]];
+//    [[UITabBar appearance] setBackgroundImage:[UIImage imageNamed:@"tabbar_bg"]];
+    //去除顶部的黑线
+    [[UITabBar appearance] setShadowImage:[UIImage new]];
     
     
 }
@@ -39,15 +43,15 @@
     [self addChildViewController:homeVC title:@"首页" imageNamed:@"home_normal" selectedImageName:@"home_highlight"];
     
     SameCityViewController *activityVC = [[SameCityViewController alloc] init];
-    activityVC.view.backgroundColor = [UIColor whiteColor];
+    
     [self addChildViewController:activityVC title:@"活动" imageNamed:@"mycity_normal" selectedImageName:@"mycity_highlight"];
     
     MessageViewController *findVC = [[MessageViewController alloc] init];
-    findVC.view.backgroundColor = [UIColor whiteColor];
+    
     [self addChildViewController:findVC title:@"发现" imageNamed:@"message_normal" selectedImageName:@"message_highlight"];
     
     MainViewController *mineVC = [[MainViewController alloc] init];
-    mineVC.view.backgroundColor = [UIColor whiteColor];
+    
     [self addChildViewController:mineVC title:@"我的" imageNamed:@"account_normal" selectedImageName:@"account_highlight"];
 }
 
@@ -65,8 +69,13 @@
     nav.tabBarItem.selectedImage = image;
     
     [nav.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[UIFont systemFontOfSize:11]} forState:UIControlStateSelected];
-    
+
     [nav.tabBarItem setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor lightGrayColor],NSFontAttributeName:[UIFont systemFontOfSize:11]} forState:UIControlStateNormal];
+    
+//    if ([vc isKindOfClass:[MainViewController class]]) {
+//        
+//        vc.navigationController.navigationBar.hidden = YES;
+//    }
     
     [self addChildViewController:nav];
 }
@@ -75,8 +84,23 @@
     
     NSLog(@"点了大的按钮");
     oneViewController * oneVC = [[oneViewController alloc]init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:oneVC];
-   [self.navigationController presentViewController:nav animated:YES completion:nil];
+//    MainNavigationVC *nav = [[MainNavigationVC alloc] initWithRootViewController:oneVC];
+   [self presentViewController:oneVC animated:YES completion:nil];
+}
+
+- (UIImage *)imageWithColor:(UIColor *)color
+{
+    NSParameterAssert(color != nil);
+    
+    CGRect rect = CGRectMake(0, 0, 1, 1);
+    // Create a 1 by 1 pixel context
+    UIGraphicsBeginImageContextWithOptions(rect.size, NO, 0);
+    [color setFill];
+    UIRectFill(rect);   // Fill it with your color
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    return image;
 }
 
 /*

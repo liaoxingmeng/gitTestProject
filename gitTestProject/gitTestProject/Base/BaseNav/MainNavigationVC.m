@@ -20,8 +20,11 @@
     
     UINavigationBar * navBar = [UINavigationBar appearance];
     navBar.translucent = NO;
-    [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor], NSFontAttributeName:[UIFont systemFontOfSize:18.0]}];
-    [navBar setBarTintColor:[UIColor redColor]];
+   
+    [navBar setBarTintColor:[UIColor blueColor]];
+     [navBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor], NSFontAttributeName:[UIFont systemFontOfSize:18.0]}];
+    
+//    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     
 }
 

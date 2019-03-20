@@ -1,25 +1,33 @@
 //
-//  BaseViewController.m
+//  homeNextVC.m
 //  gitTestProject
 //
-//  Created by xinxinxiangzhao on 2019/3/12.
+//  Created by xinxinxiangzhao on 2019/3/20.
 //  Copyright © 2019年 杨壮. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "homeNextVC.h"
 
-@interface BaseViewController ()
+@interface homeNextVC ()
 
 @end
 
-@implementation BaseViewController
+@implementation homeNextVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self addNavigationItemWithImageNames:@[@"account_highlight"] isLeft:NO target:self action:@selector(testBlick:) tags:@[@1003]];
+    
+    self.navigationController.navigationBar.hidden = YES;
+    self.view.backgroundColor = KBlackColor;
+    
 }
-
+-(void)testBlick:(UIButton *)btn{
+    
+    YZLog(@"有效");
+}
 /*
 #pragma mark - Navigation
 

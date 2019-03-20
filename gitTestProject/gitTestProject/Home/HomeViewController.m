@@ -7,7 +7,7 @@
 //
 
 #import "HomeViewController.h"
-
+#import "homeNextVC.h"
 @interface HomeViewController ()
 
 @end
@@ -16,8 +16,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-//    self.navigationItem.title = @"首页";
+
+    [self addNavigationItemWithTitles:@[@"登陆"] isLeft:YES target:self action:@selector(naviBtnClick:) tags:@[@1000]];
+    
+    [self addNavigationItemWithTitles:@[@"注册"] isLeft:NO target:self action:@selector(naviBtnClick:) tags:@[@1001]];
+    
+    
+   
+   
+  
+}
+-(void)naviBtnClick:(UIButton *)btn
+{
+    
+    if (btn.tag == 1000) {
+        YZLog(@"登陆按钮被点击");
+    }else{
+        YZLog(@"注册按钮被点击");
+        homeNextVC * vc = [[homeNextVC alloc]init];
+        vc.hidesBottomBarWhenPushed = YES;
+        [self.navigationController pushViewController:vc animated:YES];
+    }
 }
 
 /*
